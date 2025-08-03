@@ -25,12 +25,12 @@ export function Hero() {
             &gt; Delivering scalable end-to-end solutions
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <button className="retro-button inline-flex items-center justify-center gap-2 h-12 px-8 py-3 font-bold rounded-md text-black uppercase tracking-wider">
+            <button className="retro-button inline-flex items-center justify-center gap-2 h-12 px-8 py-3 font-bold rounded-md text-black uppercase tracking-wider" onClick={() => window.open('https://github.com/notsooryaa', '_blank')}>
               <Code className="mr-2" size={16} />
               VIEW PROJECTS
             </button>
             <button className="inline-flex items-center justify-center gap-2 h-12 px-8 py-3 font-bold rounded-md border-2 bg-transparent uppercase tracking-wider transition-all outline-none hover:bg-white/10" 
-                    style={{ borderColor: 'var(--secondary)', color: 'var(--secondary)' }}>
+                    style={{ borderColor: 'var(--secondary)', color: 'var(--secondary)' }} onClick={() => window.location.href = 'mailto:stunsooryaa@gmail.com'}>
               <Mail className="mr-2" size={16} />
               CONTACT
             </button>
