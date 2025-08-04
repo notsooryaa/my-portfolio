@@ -20,7 +20,7 @@ export function Contact() {
               <Mail size={20} />
               stunsooryaa@gmail.com
             </a>
-            <a href="https://github.com/sooryaa" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-secondary hover:text-secondary/80 transition-colors">
+            <a href="https://github.com/notsooryaa" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-secondary hover:text-secondary/80 transition-colors">
               <GithubIcon size={20} />
               GitHub
             </a>
