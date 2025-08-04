@@ -32,7 +32,7 @@ export function About() {
               When I'm not coding, I'm probably exploring new tech or hitting the gym to destroy my body 💪🏻.
             </p>
             <div className="flex gap-4">
-              <a href="https://github.com/sooryaa" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 h-8 px-3 py-1.5 text-sm font-medium rounded-md border border-cyan-400 bg-transparent text-cyan-400 hover:bg-cyan-400/10 transition-all outline-none focus:ring-2 focus:ring-cyan-400/50">
+              <a href="https://github.com/notsooryaa" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 h-8 px-3 py-1.5 text-sm font-medium rounded-md border border-cyan-400 bg-transparent text-cyan-400 hover:bg-cyan-400/10 transition-all outline-none focus:ring-2 focus:ring-cyan-400/50">
                 <Github className="mr-2" size={16} />
                 GitHub
               </a>
